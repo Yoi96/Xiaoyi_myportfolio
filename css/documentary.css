@@ -1,0 +1,1071 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Bitter:wght@600&family=Inknut+Antiqua:wght@800&family=Neuton:wght@800&family=Patua+One&family=Roboto&family=Rubik:wght@300&family=Share&display=swap');
+
+
+* {box-sizing: border-box;}
+
+
+a
+{
+	text-decoration: none;
+	color: white;
+	padding: 0px;
+	margin: 0px;
+}
+
+body
+{
+  overflow-x: hidden;
+  margin: 0px;
+  padding: 0px;
+  font-family: Helvetica, arial, sans-serif;
+  text-align: center;
+}
+
+
+.banner_bg
+{
+  margin: 0px;
+  width: 100%;
+  background:#031033;
+}
+
+
+.banner
+{
+  margin: 0px auto;
+  max-width: 1024px;
+}
+
+
+.banner_title
+{
+  font-size: 2.5em;
+  background:#031033;
+  color: #e2e5d4;
+  font-family: 'Abril Fatface', cursive;
+  padding: 2em;
+
+}
+
+.banner_img
+{
+  background: url('img/gettyimages.png') center right;
+  background-repeat: no-repeat; 
+  background-size: cover;
+  line-height:30em;
+}
+
+.banner_title span
+{
+
+  color:#e2b622;
+
+}
+
+
+/**********************************/
+
+
+.wrap
+{
+  max-width: 1024px;
+  margin: 0 auto;
+ 
+}
+
+
+/**********************************/
+
+.introduction
+{
+  margin-bottom: 1.5em;
+  font-size: 1.3em;
+  line-height: 1.5em;
+  text-align: justify;
+}
+
+.introduction_title
+{
+  color:#031033;
+  font-size:2em;
+  text-align: center;
+  font-family: 'Neuton', serif;
+  line-height:2em;
+
+}
+
+.introduction_img
+{
+  background: url('img/newcovid19variantshero.jpg') no-repeat;
+  background-size: cover;
+  background-position:center;
+  line-height:25em;
+  margin-top: 1em;
+
+}
+
+/**********************************/
+
+.navs_bg
+{
+   max-width: 100%;
+   background:#031033;
+
+}
+
+.navs
+{
+   
+   width: 100%;
+   font-size: 2em;
+   line-height: 2em;
+}
+
+.nav1
+{
+  background:#c81920;
+
+ 
+}
+
+.nav2
+{
+  background:#01acef;
+ 
+}
+
+.nav3
+{
+  background:#e2b622;
+
+}
+
+/**********************************/
+
+
+.navstopic
+{
+
+  color: white;
+  background: #c81920;
+  line-height:2em;
+  font-size: 2em;
+  font-family: 'Neuton', serif;
+  text-align: left;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+
+}
+
+/**********************************/
+
+
+.navstopic2
+{
+
+  color: white;
+  background: #01acef;
+  line-height:2em;
+  font-size: 2em;
+  font-family: 'Neuton', serif;
+  text-align: left;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+
+}
+
+
+.navstopic3
+{
+
+  color: white;
+  background: #e2b622;
+  line-height:2em;
+  font-size: 2em;
+  font-family: 'Neuton', serif;
+  text-align: left;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+
+}
+
+.footer
+{
+  background:#031033;
+  line-height: 1.5em;
+  font-size: 1.2em;
+  width: 100%;
+  color: white;
+  padding: 1em;
+}
+
+
+/***************************/
+.banner_bg
+{
+	grid-area: banner_bg;
+}
+
+.banner
+{
+	grid-area: banner;
+}
+
+.banner_title
+{
+	grid-area: banner_title;
+}
+
+.banner_img
+{
+	grid-area: banner_img;
+}
+
+
+/*****************************************/
+
+.wrap
+{
+	grid-area: wrap;
+}
+
+.introduction
+{
+	grid-area: introduction;
+}
+
+.introduction_img
+{
+	grid-area: introduction_img;
+}
+
+/*****************************************/
+
+.navstopic
+{
+	grid-area: navstopic;
+}
+
+.navs_bg
+{
+	grid-area: navs_bg;
+}
+
+.navs 
+{
+	grid-area: navs;
+}
+
+.nav1
+{
+	grid-area: nav1;
+}
+
+.nav2
+{
+	grid-area: nav2;
+}
+
+.nav3
+{
+	grid-area: nav3;
+}
+
+/*******************timeline2020**********************/
+
+.timeline2020
+{
+	grid-area: timeline2020;
+}
+
+
+.timeline2020_left
+{
+	grid-area: timeline2020_left;
+}
+
+.timeline2020_middle
+{
+	grid-area: timeline2020_middle;
+}
+
+.timeline2020_right
+{
+	grid-area: timeline2020_right;
+}
+
+
+.timeline2020_01
+{
+	grid-area: timeline2020_01;
+}
+
+
+
+.timeline2021
+{
+	grid-area: .timeline2021;
+}
+
+
+.timeline2021_01
+{
+	grid-area: timeline2021_01;
+}
+
+
+.timeline2021_02
+{
+	grid-area: timeline2021_02;
+}
+
+.timeline2021_body
+{
+	grid-area: timeline2021_body;
+}
+
+.timeline2021_03
+{
+	grid-area: timeline2021_03;
+}
+
+.timeline2021_04
+{
+	grid-area: timeline2021_04;
+}
+
+.timeline2021_05
+{
+	grid-area: timeline2021_05;
+}
+
+.timeline2021_06
+{
+	grid-area: timeline2021_06;
+}
+
+.timeline2022_01
+{
+	grid-area: timeline2022_01;
+}
+
+.timeline2022_02
+{
+	grid-area: timeline2022_02;
+}
+
+.timeline2022_img
+{
+	grid-area: timeline2022_img;
+}
+
+.timeline2022_img2
+{
+	grid-area: timeline2022_img2;
+}
+
+
+.timeline2022_text
+{
+	grid-area: timeline2022_text;
+}
+
+.navstopic3
+{
+	grid-area: navstopic3;
+}
+
+.navstopic2
+{
+	grid-area: navstopic2;
+}
+
+.footer
+{
+	grid-area: footer;
+}
+
+.banner_bg
+{
+	display: grid;
+  	grid-template-areas:
+  	"banner"; 
+}
+
+.banner
+{
+	display: grid;
+	grid-template-areas: 
+	"banner_title" 
+	"banner_img";
+}
+
+@media (min-width: 700px) 
+{
+  	.banner_bg
+	{
+  		grid-template-columns:1fr;
+		grid-template-areas: 
+		"banner";
+
+	}
+
+
+	.banner
+	{
+		grid-template-columns: 1fr 2fr;
+		grid-template-areas:"banner_title banner_img";
+	}
+
+
+
+
+}
+
+/******************introduction***********************/
+
+.wrap
+{
+	display: grid;
+	grid-template-areas: 
+	"introduction_img" 
+	"introduction"
+	"navs_bg"
+	"navstopic"
+	"timeline2020"
+	"timeline2021"
+	"timeline2022";
+}
+
+@media (min-width: 700px) 
+{
+  	.wrap
+	{
+  		grid-template-columns:1fr;
+		grid-template-areas:
+		"introduction_img" 
+		"introduction"
+		"navs_bg"
+		"navstopic"
+		"timeline2020"
+		"timeline2021"
+		"timeline2022";
+
+	}
+}
+
+@media (max-width: 700px) 
+{
+  	
+	.introduction_img
+	{
+		background: url('img/newcovid19variantshero01.jpg') no-repeat;
+		background-size:cover;
+  		background-position:center;
+  		line-height:25em;
+  		margin: 0px;
+  		padding: 0px;
+  		margin-top: 1em;
+	} 
+  
+  .timeline2022_img
+  {
+  	margin: 0px;
+  	padding: 0px;
+  }
+
+    .timeline2022_img2
+  {
+  	margin: 0px;
+  	padding: 0px;
+  }
+
+}
+
+
+/*****************************************************/
+
+.navs_bg
+{
+  display: grid;
+  grid-template-areas:"navs";
+
+}
+
+@media (min-width: 700px) 
+{
+  .navs_bg
+  {
+    grid-template-columns: 1fr;
+    grid-template-areas:"navs";
+   }
+
+}
+
+.navs
+{
+  display: grid;
+  grid-template-areas: 
+  "nav1"
+  "nav2"
+  "nav3";
+
+}
+
+@media (min-width: 700px) 
+{
+  .navs
+  {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:"nav1 nav2 nav3";
+   }
+
+}
+/****************/
+
+
+.timeline2020
+{
+	display: grid;
+	grid-template-areas:
+	"timeline2020_01"
+	"timeline2020_02";
+}
+
+
+.timeline2020_01
+{
+	display: grid;
+	grid-template-areas:
+	"timeline2020_left"
+	"timeline2020_middle"
+	"timeline2020_right";
+}
+
+.timeline2020_02
+{
+	display: grid;
+	grid-template-areas:
+	"timeline2020_left"
+	"timeline2020_middle"
+	"timeline2020_right";
+}
+
+
+@media (min-width: 700px) 
+{
+   
+   .timeline2020
+  {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+	"timeline2020_01" 
+	"timeline2020_02";
+   }
+
+
+  .timeline2020_01
+  {
+    grid-template-columns: 1fr 0.3fr 1fr;
+    grid-template-areas:
+	"timeline2020_left timeline2020_middle timeline2020_right" ;
+   }
+
+    .timeline2020_02
+  {
+    grid-template-columns: 1fr 0.3fr 1fr;
+    grid-template-areas:
+	"timeline2020_left timeline2020_middle timeline2020_right" ;
+   }
+
+}
+
+
+@media (max-width: 700px) 
+{
+   .timeline2020_middle
+   {
+   	display: none;
+   	visibility: hidden;
+   	margin: 0px;
+   	padding: 0px;
+   }
+
+   .timeline2020_01
+   {
+   	padding: 0px;
+   	margin: 0px;
+   }
+
+   .timeline2020_02
+   {
+   	padding-top: 4em;
+  
+   }
+
+
+}
+
+
+
+.timeline2021
+{
+  display: grid;
+  grid-template-areas: 
+  "navs_bg"
+  "navstopic2"
+  "timeline2021_body";
+
+}
+
+@media (min-width: 700px) 
+{
+  .timeline2021
+  {
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+  		"navs_bg"
+  		"navstopic2"
+  		"timeline2021_body";
+
+   }
+
+}
+
+
+.timeline2021_body
+{
+  display: grid;
+   grid-gap: 1em;
+  grid-template-areas:
+  "timeline2021_01"
+  "timeline2021_02"
+  "timeline2021_03"
+  "timeline2021_04"
+  "timeline2021_05"
+  "timeline2021_06";
+}
+
+@media (min-width: 700px) 
+{
+  .timeline2021_body
+  {
+    grid-template-columns: 1fr 1fr 1fr;
+
+    grid-template-areas: 
+  "timeline2021_01 timeline2021_02 timeline2021_03"
+  "timeline2021_04 timeline2021_05 timeline2021_06";
+
+   }
+
+}
+
+
+
+.timeline2022
+{
+  display: grid;
+  grid-template-areas:
+  "navs_bg"
+  "navstopic3" 
+  "timeline2022_01"
+  "timeline2022_02";
+
+}
+
+@media (min-width: 700px) 
+{
+  .timeline2022
+  {
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+  	"navs_bg"
+  "navstopic3" 
+  "timeline2022_01"
+  "timeline2022_02";
+
+   }
+
+}
+
+.timeline2022_01
+{
+  display: grid;
+  grid-template-areas: 
+  "timeline2022_img"
+  "timeline2022_text";
+
+}
+
+
+.timeline2022_02
+{
+  display: grid;
+  grid-template-areas:
+  "timeline2022_img2" 
+  "timeline2022_text";
+
+}
+
+@media (min-width: 700px) 
+{
+  .timeline2022_01
+  {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+  	"timeline2022_img timeline2022_text";
+
+   }
+
+   .timeline2022_02
+  {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+  	"timeline2022_text timeline2022_img2";
+
+   }
+
+}
+
+.timeline2020
+{
+	
+	font-family: Helvetica, arial, sans-serif;
+	border-bottom: 1em solid #c81920;
+	padding-bottom: 2em;
+}
+
+.timeline2020_left
+{
+	margin: 0px;
+	padding: 0px;
+
+}
+
+.timeline2020_right
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+.timeline2020_left_bg
+{
+	background:#F7F7F7;
+	padding:1em;
+	border: 5px solid #c81920;
+	border-radius: 25px;
+	margin: 0px;
+
+}
+
+.timeline2020_left_title
+{
+	font-size: 3em;
+	color:#c81920;
+	font-family: 'Neuton', serif;
+	border-bottom: 5px solid #c81920;
+	margin-bottom: 0.5em;
+  text-align: left;
+}
+
+.timeline2020_left_img01
+{
+	background: url('img/9884616.jpg') no-repeat;
+	background-position: center;
+	background-size: cover;
+	line-height: 20em;
+	margin-bottom: 1em;
+}
+
+
+.timeline2020_left_img02
+{
+	background: url('img/ows_15841416596853.jpg') no-repeat;
+	background-position: center;
+	background-size: cover;
+	line-height: 20em;
+	margin-bottom: 1em;
+}
+
+.timeline2020_left_img03
+{
+	background: url('img/1782897733.jpg') no-repeat;
+	background-position: center;
+	background-size: cover;
+	line-height: 20em;
+	margin-bottom: 1em;
+}
+
+.timeline2020_left_img04
+{
+	background: url('img/ClosedCOVID19.jpg') no-repeat;
+	background-position: center;
+	background-size: cover;
+	line-height: 20em;
+	margin-bottom: 1em;
+}
+
+
+.timeline2020_left_img05
+{
+	background: url('img/bill.jpg') no-repeat 0px -30px;
+	background-size: cover;
+	line-height: 20em;
+	margin-bottom: 1em;
+}
+
+.timeline2020_left_img06
+{
+	background: url('img/Altice_logo.png') no-repeat 0px 0px;
+	background-size: cover;
+	line-height: 20em;
+	margin-bottom: 1em;
+}
+
+
+.timeline2020_left_text
+{
+	line-height: 1.3em;
+	font-size: 1.2em;
+	text-align: left;
+
+}
+
+
+
+.timeline2020_middle
+{
+	padding: 0px;
+	margin: 0px;
+}
+
+ .dot
+	{
+  		padding: 0px;
+ 	 	margin: 0px auto;
+  		height:100px;
+  		width: 100px;
+  		background-color:#c81920;
+  		border-radius:50%;
+ 	 	color: white;
+  		text-align: center;
+  		font-size:1.4em;
+  		line-height:1.2em;
+  		padding-top: 20px;
+
+	}
+
+	.redline
+	{
+  		width: 0.8em;
+  		height:17em;
+  		background: #c81920;
+  		padding: 0px;
+  		margin: 0px auto;
+
+	}
+
+	.redline2
+	{
+  		width: 0.8em;
+  		height:100%;
+  		background: #c81920;
+  		margin: 0px auto;
+  		padding: 0px;
+	}
+	.redline3
+	{
+  		width: 0.8em;
+  		height:55%;
+  		background: #c81920;
+  		margin: 0px auto;
+  		padding: 0px;
+  }
+
+.timeline2020_left_01
+{
+	padding-top: 4em;
+}
+
+.timeline2021
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+.timeline2021_body
+{
+	color: white;
+	margin-top: 1em;
+	text-align:left;
+
+}
+
+
+.timeline2021_01
+{
+	
+	padding:2em;
+	background: #01acef;
+}
+
+
+.timeline2021_02
+{
+	
+	padding:2em;
+	background: #01acef;
+}
+
+
+.timeline2021_03
+{
+	
+	padding:2em;
+	background: #01acef;
+}
+
+.timeline2021_04
+{
+	
+	padding:2em;
+	background: #01acef;
+}
+
+.timeline2021_05
+{
+	
+	padding:2em;
+	background: #01acef;
+}
+
+.timeline2021_06
+{
+	
+	padding:2em;
+	background: #01acef;
+}
+
+
+
+.timeline2021_title
+{
+  line-height:2em;
+  font-size: 3em;
+  font-family: 'Neuton', serif;
+
+}
+
+.timeline2021_img01
+{
+	background: url('img/COVID-Icons-11.png') no-repeat;
+	background-position: center;
+	background-size: contain;
+	line-height: 15em;
+	margin-bottom: 1em;
+}
+
+.timeline2021_img02
+{
+	background: url('img/COVID-Icons-05.png') no-repeat;
+	background-position: center;
+	background-size: contain;
+	line-height: 15em;
+	margin-bottom: 1em;
+}
+
+.timeline2021_img03
+{
+	background: url('img/COVID-Icons-20.png') no-repeat;
+	background-position: center;
+	background-size: contain;
+	line-height: 15em;
+	margin-bottom: 1em;
+}
+
+.timeline2021_img04
+{
+	background: url('img/COVID-Icons-17.png') no-repeat;
+	background-position: center;
+	background-size: contain;
+	line-height: 15em;
+	margin-bottom: 1em;
+}
+
+
+.timeline2021_img05
+{
+	background: url('img/COVID-Icons-19.png') no-repeat;
+	background-position: center;
+	background-size: contain;
+	line-height: 15em;
+	margin-bottom: 1em;
+}
+
+
+.timeline2021_06 h1
+{
+	text-align: center;
+}
+
+.timeline2021_06 h2
+{
+	text-align: center;
+	border: 5px solid white;
+	line-height: 2em;
+}
+
+.timeline2022
+{
+	margin-top:1em;
+	padding-bottom: 1em;
+	border-top: 1em solid #01acef;
+
+}
+
+
+.timeline2022_01
+{
+	margin-top: 1em;
+	padding: 0px;
+}
+
+.timeline2022_02
+{
+	margin-top: 1em;
+	padding: 0px;
+}
+
+
+.timeline2022_img
+{
+	background: url('img/340892412.jpg') no-repeat;
+	background-position: center;
+	background-size: cover;
+	line-height: 20em;
+	 
+}
+
+.timeline2022_img2
+{
+	background: url('img/1274581369.jpg') no-repeat;
+	background-position: center;
+	background-size: cover;
+	line-height: 20em;
+	 
+}
+
+.timeline2022_text
+{
+	font-size: 2em;
+	text-align: left;
+	line-height: 1.3em;
+	padding: 3em;
+	background: #e2b622;
+}
+
+
